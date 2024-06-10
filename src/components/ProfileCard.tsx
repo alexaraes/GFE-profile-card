@@ -13,13 +13,13 @@ interface ProfileCardProps {
 
 const ProfileCard = ({ avatar, name, header, bio, contact }: ProfileCardProps) => {
     return (
-        <div className="flex flex-col items-center gap-6 rounded-lg border-2 border-neutral-300 mt-[200px] p-4 w-[340px] bg-white">
+        <div className="flex flex-col items-center gap-6 rounded-lg border-2 border-neutral-200 mt-[200px] p-4 w-[340px] bg-white">
             <img className="h-[60px] mt-6" src={avatar} />
             <div className="text-center">
                 <p className="text-2xl">{name}</p>
                 <p className="text-neutral-500 text-sm">{header}</p>
             </div>
-            <div className="text-center text-neutral-600">
+            <div className="mb-3 text-center text-neutral-600">
                 <p>{bio}</p>
             </div>
             <div className="w-full">

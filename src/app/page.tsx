@@ -1,7 +1,7 @@
 import ProfileCard from "../components/ProfileCard";
 
 const data = {
-    avatar: "/profile.png",
+    avatar: "/GFE-profile-card/profile.png",
     name: "Sarah Dole",
     header: "Front End Engineer @ Microsoft",
     bio: "I turn coffee into bugs which are fixed by someone else. Certified Stack Overflow and ChatGPT developer.",
